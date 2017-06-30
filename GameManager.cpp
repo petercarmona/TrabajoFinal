@@ -38,4 +38,8 @@ void GameManager::SetArrowsPosition(Arrow *arrow, int i, int j, char XorY) {
 }
 GameManager::~GameManager()
 {
+	delete up;
+	delete down;
+	delete left;
+	delete right;
 }
