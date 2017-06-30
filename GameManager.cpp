@@ -4,7 +4,7 @@
 
 GameManager::GameManager()
 {
-	players.add(player);
+	players.push_back(player);
 	up = new Arrow('^');
 	down = new Arrow('v');
 	right = new Arrow('>');
