@@ -3,9 +3,12 @@
 #include "Map.h"
 #include "Arrow.h"
 #include <string>
+#include <vector>
+
 class GameManager
 {
 private:
+	std::vector<int> Players;
 	Map map;
 	Player player;
 	Arrow *up, *down, *left, *right;
