@@ -8,7 +8,7 @@
 class GameManager
 {
 private:
-	std::vector<int> Players;
+	std::vector<Player> players;
 	Map map;
 	Player player;
 	Arrow *up, *down, *left, *right;
