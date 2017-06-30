@@ -4,7 +4,7 @@
 
 GameManager::GameManager()
 {
-	players.push_back(player);
+	players.push_back(player); //Expansion Futura (Multiplayer)
 	up = new Arrow('^');
 	down = new Arrow('v');
 	right = new Arrow('>');
